@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="81" failures="0" disabled="0" errors="0" time="0.071" timestamp="2023-12-08T16:52:40.639" name="AllTests">
-  <testsuite name="FileImporterTestFixture" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.639">
-    <testcase name="when_constructed_expect_specified_file_to_be_read" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.639" classname="FileImporterTestFixture" />
+<testsuites tests="81" failures="0" disabled="0" errors="0" time="0.071" timestamp="2023-12-09T15:22:22.286" name="AllTests">
+  <testsuite name="FileImporterTestFixture" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.286">
+    <testcase name="when_constructed_expect_specified_file_to_be_read" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.286" classname="FileImporterTestFixture" />
   </testsuite>
-  <testsuite name="PDRendererTest" tests="14" failures="0" disabled="0" skipped="0" errors="0" time="0.062" timestamp="2023-12-08T16:52:40.640">
-    <testcase name="when_constructed_expect_renderer_to_be_created" status="run" result="completed" time="0.062" timestamp="2023-12-08T16:52:40.640" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_forwards_with_heading_set_to_right_and_magntitude_1_expect_x_location_to_increment_by_two" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_forwards_with_heading_set_to_up_and_magntitude_1_expect_y_location_to_decrement_by_one" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_forwards_with_heading_down_and_magntitude_1_expect_y_location_to_increment_by_one" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_forwards_with_heading_left_and_magntitude_1_expect_x_location_to_decrement_by_two" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_backwards_expect_x_location_to_decrement_by_two" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_backwards_expect_y_location_to_increment_by_one" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_backwards_expect_y_location_to_decrement_by_one" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_when_going_backwards_expect_x_location_to_increment_by_two" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_with_key_space_expect_pen_position_to_be_toggled" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="Render_when_when_going_forwards_called_expect_leading_character_to_be_written_to_window" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="Render_when_called_when_going_forwards_expect_trailing_character_to_be_written_to_window_when_heading_is_right_and_mangitude_is_1" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="Render_when_called_when_going_forwards_expect_trailing_character_to_be_written_to_window_when_heading_is_left_and_mangitude_is_1" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
-    <testcase name="when_move_called_and_invalid_key_pressed_expect_x_y_location_to_remain_the_same" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="PDRendererTest" />
+  <testsuite name="PDRendererTest" tests="14" failures="0" disabled="0" skipped="0" errors="0" time="0.063" timestamp="2023-12-09T15:22:22.287">
+    <testcase name="when_constructed_expect_renderer_to_be_created" status="run" result="completed" time="0.063" timestamp="2023-12-09T15:22:22.287" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_forwards_with_heading_set_to_right_and_magntitude_1_expect_x_location_to_increment_by_two" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_forwards_with_heading_set_to_up_and_magntitude_1_expect_y_location_to_decrement_by_one" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_forwards_with_heading_down_and_magntitude_1_expect_y_location_to_increment_by_one" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_forwards_with_heading_left_and_magntitude_1_expect_x_location_to_decrement_by_two" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_backwards_expect_x_location_to_decrement_by_two" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_backwards_expect_y_location_to_increment_by_one" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_backwards_expect_y_location_to_decrement_by_one" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_when_going_backwards_expect_x_location_to_increment_by_two" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_with_key_space_expect_pen_position_to_be_toggled" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="Render_when_when_going_forwards_called_expect_leading_character_to_be_written_to_window" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="Render_when_called_when_going_forwards_expect_trailing_character_to_be_written_to_window_when_heading_is_right_and_mangitude_is_1" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="Render_when_called_when_going_forwards_expect_trailing_character_to_be_written_to_window_when_heading_is_left_and_mangitude_is_1" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
+    <testcase name="when_move_called_and_invalid_key_pressed_expect_x_y_location_to_remain_the_same" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDRendererTest" />
   </testsuite>
-  <testsuite name="MovementTest" tests="21" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.702">
-    <testcase name="when_constructor_called_expect_movement_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_up_expect_y_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_down_expect_y_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_left_expect_x_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_right_expect_x_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_backward_called_with_heading_up_expect_y_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_backward_called_with_heading_down_expect_y_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_backward_called_with_heading_left_expect_x_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_backward_called_with_heading_right_expect_x_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_right_90_called_with_heading_up_expect_heading_to_be_right" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_right_90_called_with_heading_down_expect_heading_to_be_left" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_right_90_called_with_heading_left_expect_heading_to_be_up" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_right_90_called_with_heading_right_expect_heading_to_be_down" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_left_90_called_with_heading_up_expect_heading_to_be_left" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_left_90_called_with_heading_down_expect_heading_to_be_right" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_left_90_called_with_heading_left_expect_heading_to_be_down" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_turn_left_90_called_with_heading_right_expect_heading_to_be_up" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_up_and_y_location_is_less_than_ceiling_cap_expect_y_location_to_be_ceiling_cap" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_down_and_y_location_is_greater_than_y_safe_zone_expect_y_location_to_be_y_safe_zone" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_left_and_x_location_is_less_than_ceiling_cap_expect_x_location_to_be_ceiling_cap" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
-    <testcase name="MovementTest_when_move_forward_called_with_heading_right_and_x_location_is_greater_than_x_safe_zone_expect_x_location_to_be_x_safe_zone" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="MovementTest" />
+  <testsuite name="MovementTest" tests="21" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.350">
+    <testcase name="when_constructor_called_expect_movement_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_up_expect_y_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_down_expect_y_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_left_expect_x_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_right_expect_x_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_backward_called_with_heading_up_expect_y_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_backward_called_with_heading_down_expect_y_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_backward_called_with_heading_left_expect_x_location_to_increment" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_backward_called_with_heading_right_expect_x_location_to_decrement" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_right_90_called_with_heading_up_expect_heading_to_be_right" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_right_90_called_with_heading_down_expect_heading_to_be_left" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_right_90_called_with_heading_left_expect_heading_to_be_up" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_right_90_called_with_heading_right_expect_heading_to_be_down" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_left_90_called_with_heading_up_expect_heading_to_be_left" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_left_90_called_with_heading_down_expect_heading_to_be_right" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_left_90_called_with_heading_left_expect_heading_to_be_down" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_turn_left_90_called_with_heading_right_expect_heading_to_be_up" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_up_and_y_location_is_less_than_ceiling_cap_expect_y_location_to_be_ceiling_cap" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_down_and_y_location_is_greater_than_y_safe_zone_expect_y_location_to_be_y_safe_zone" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_left_and_x_location_is_less_than_ceiling_cap_expect_x_location_to_be_ceiling_cap" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
+    <testcase name="MovementTest_when_move_forward_called_with_heading_right_and_x_location_is_greater_than_x_safe_zone_expect_x_location_to_be_x_safe_zone" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="MovementTest" />
   </testsuite>
-  <testsuite name="LogoParserTestFixture" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.702">
-    <testcase name="Next_when_magnitude_read_command_with_magnitude_from_string" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.702" classname="LogoParserTestFixture" />
-    <testcase name="Next_when_no_magnitude_read_command_without_magnitude_from_string" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.703" classname="LogoParserTestFixture" />
-    <testcase name="HasNext_when_no_more_commands_then_false" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.703" classname="LogoParserTestFixture" />
-    <testcase name="HasNext_when_more_commands_then_true" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.703" classname="LogoParserTestFixture" />
+  <testsuite name="LogoParserTestFixture" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.350">
+    <testcase name="Next_when_magnitude_read_command_with_magnitude_from_string" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="LogoParserTestFixture" />
+    <testcase name="Next_when_no_magnitude_read_command_without_magnitude_from_string" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="LogoParserTestFixture" />
+    <testcase name="HasNext_when_no_more_commands_then_false" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="LogoParserTestFixture" />
+    <testcase name="HasNext_when_more_commands_then_true" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="LogoParserTestFixture" />
   </testsuite>
-  <testsuite name="PDCharacterAssemblerTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.703">
-    <testcase name="when_constructor_called_expect_pd_character_assembler_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.703" classname="PDCharacterAssemblerTest" />
+  <testsuite name="PDCharacterAssemblerTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.350">
+    <testcase name="when_constructor_called_expect_pd_character_assembler_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDCharacterAssemblerTest" />
   </testsuite>
-  <testsuite name="PDWindowTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2023-12-08T16:52:40.703">
-    <testcase name="when_constructed_expect_window_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.703" classname="PDWindowTest" />
-    <testcase name="should_exit_method" status="run" result="completed" time="0.007" timestamp="2023-12-08T16:52:40.703" classname="PDWindowTest" />
+  <testsuite name="PDWindowTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2023-12-09T15:22:22.350">
+    <testcase name="when_constructed_expect_window_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.350" classname="PDWindowTest" />
+    <testcase name="should_exit_method" status="run" result="completed" time="0.006" timestamp="2023-12-09T15:22:22.350" classname="PDWindowTest" />
   </testsuite>
-  <testsuite name="MainTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="RunLoop" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="MainTest" />
+  <testsuite name="MainTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="RunLoop" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="MainTest" />
   </testsuite>
-  <testsuite name="RLWindowTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="when_constructed_expect_init_window_and_set_target_fps_called" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLWindowTest" />
-    <testcase name="should_exit" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLWindowTest" />
+  <testsuite name="RLWindowTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="when_constructed_expect_init_window_and_set_target_fps_called" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLWindowTest" />
+    <testcase name="should_exit" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLWindowTest" />
   </testsuite>
-  <testsuite name="RLBoxTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="CreateBox_from_constructor" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLBoxTest" />
-    <testcase name="GetXSafeZone" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLBoxTest" />
-    <testcase name="GetYSafeZone" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLBoxTest" />
+  <testsuite name="RLBoxTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="CreateBox_from_constructor" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLBoxTest" />
+    <testcase name="GetXSafeZone" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLBoxTest" />
+    <testcase name="GetYSafeZone" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLBoxTest" />
   </testsuite>
-  <testsuite name="RLRendererTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="when_constructed_expect_rl_renderer_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="when_render_expect_used_raylib_wrappers_to_be_called" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="test_move_function_move_down" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="test_move_function_move_up" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="test_move_function_pen_position" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="test_move_function_turn_left" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="test_move_function_turn_right" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
-    <testcase name="test_set_trail_colour_function" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRendererTest" />
+  <testsuite name="RLRendererTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="when_constructed_expect_rl_renderer_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="when_render_expect_used_raylib_wrappers_to_be_called" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="test_move_function_move_down" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="test_move_function_move_up" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="test_move_function_pen_position" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="test_move_function_turn_left" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="test_move_function_turn_right" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
+    <testcase name="test_set_trail_colour_function" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRendererTest" />
   </testsuite>
-  <testsuite name="LogoRepeatHandlerTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="when_given_a_repeat_command_then_return_the_command_repeated" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="LogoRepeatHandlerTest" />
-    <testcase name="when_given_no_repeat_command_then_return_the_command" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="LogoRepeatHandlerTest" />
+  <testsuite name="LogoRepeatHandlerTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="when_given_a_repeat_command_then_return_the_command_repeated" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="LogoRepeatHandlerTest" />
+    <testcase name="when_given_no_repeat_command_then_return_the_command" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="LogoRepeatHandlerTest" />
   </testsuite>
-  <testsuite name="LogoLineBreakHandlerTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="when_given_a_two_commands_with_magnitude_on_same_line_then_return_the_command_with_a_line_break" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="LogoLineBreakHandlerTest" />
-    <testcase name="when_given_a_two_commands_without_magnitude_on_same_line_then_return_the_command_with_a_line_break" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="LogoLineBreakHandlerTest" />
-    <testcase name="when_given_repeat_should_not_break_line" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="LogoLineBreakHandlerTest" />
-    <testcase name="when_given_a_two_commands_on_separate_lines_then_return_the_command_with_a_line_break" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="LogoLineBreakHandlerTest" />
+  <testsuite name="LogoLineBreakHandlerTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="when_given_a_two_commands_with_magnitude_on_same_line_then_return_the_command_with_a_line_break" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="LogoLineBreakHandlerTest" />
+    <testcase name="when_given_a_two_commands_without_magnitude_on_same_line_then_return_the_command_with_a_line_break" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="LogoLineBreakHandlerTest" />
+    <testcase name="when_given_repeat_should_not_break_line" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="LogoLineBreakHandlerTest" />
+    <testcase name="when_given_a_two_commands_on_separate_lines_then_return_the_command_with_a_line_break" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="LogoLineBreakHandlerTest" />
   </testsuite>
-  <testsuite name="RLMovementTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="when_constructed_expect_rl_movement_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_move_forward_expect_x_and_y_location_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_move_backward_expect_x_and_y_location_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_turn_right_90_expect_angle_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_turn_right_called_and_angle_is_less_than_0_expect_angle_minus_360" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_turn_left_90_expect_angle_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_turn_left_90_called_and_angle_is_greater_than_360_expect_angle_plus_360" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_turn_right_called_and_current_angle_less_than_0_expect_360_minus_current_angle" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_turn_left_called_and_current_angle_less_than_0_expect_current_angle_plus_360" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_at_bottom_of_the_screen_wrap_y_location" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_at_top_of_the_screen_wrap_y_location" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_at_left_of_the_screen_wrap_x_location" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
-    <testcase name="when_at_right_of_the_screen_wrap_x_location" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLMovementTest" />
+  <testsuite name="RLMovementTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="when_constructed_expect_rl_movement_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_move_forward_expect_x_and_y_location_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_move_backward_expect_x_and_y_location_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_turn_right_90_expect_angle_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_turn_right_called_and_angle_is_less_than_0_expect_angle_minus_360" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_turn_left_90_expect_angle_to_be_updated" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_turn_left_90_called_and_angle_is_greater_than_360_expect_angle_plus_360" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_turn_right_called_and_current_angle_less_than_0_expect_360_minus_current_angle" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_turn_left_called_and_current_angle_less_than_0_expect_current_angle_plus_360" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_at_bottom_of_the_screen_wrap_y_location" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_at_top_of_the_screen_wrap_y_location" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_at_left_of_the_screen_wrap_x_location" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
+    <testcase name="when_at_right_of_the_screen_wrap_x_location" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLMovementTest" />
   </testsuite>
-  <testsuite name="RLRecorderTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-08T16:52:40.710">
-    <testcase name="when_constructed_except_rl_recorder_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.710" classname="RLRecorderTest" />
-    <testcase name="when_InitRecording_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.711" classname="RLRecorderTest" />
-    <testcase name="when_StartRecording_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.711" classname="RLRecorderTest" />
-    <testcase name="when_SaveRecording_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.711" classname="RLRecorderTest" />
-    <testcase name="when_SaveScreenshot_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-08T16:52:40.711" classname="RLRecorderTest" />
+  <testsuite name="RLRecorderTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2023-12-09T15:22:22.357">
+    <testcase name="when_constructed_except_rl_recorder_to_be_created" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRecorderTest" />
+    <testcase name="when_InitRecording_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRecorderTest" />
+    <testcase name="when_StartRecording_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRecorderTest" />
+    <testcase name="when_SaveRecording_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRecorderTest" />
+    <testcase name="when_SaveScreenshot_function_to_be_tested" status="run" result="completed" time="0" timestamp="2023-12-09T15:22:22.357" classname="RLRecorderTest" />
   </testsuite>
 </testsuites>
